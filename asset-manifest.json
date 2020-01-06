@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/SCL010-Hackathon-Sodimac/static/css/main.d58cc671.chunk.css",
+    "main.js": "/SCL010-Hackathon-Sodimac/static/js/main.313a900f.chunk.js",
+    "main.js.map": "/SCL010-Hackathon-Sodimac/static/js/main.313a900f.chunk.js.map",
+    "runtime-main.js": "/SCL010-Hackathon-Sodimac/static/js/runtime-main.0aea08b6.js",
+    "runtime-main.js.map": "/SCL010-Hackathon-Sodimac/static/js/runtime-main.0aea08b6.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/SCL010-Hackathon-Sodimac/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.7be39d6d.chunk.js": "/SCL010-Hackathon-Sodimac/static/js/2.7be39d6d.chunk.js",
+    "static/js/2.7be39d6d.chunk.js.map": "/SCL010-Hackathon-Sodimac/static/js/2.7be39d6d.chunk.js.map",
+    "index.html": "/SCL010-Hackathon-Sodimac/index.html",
+    "precache-manifest.c7131a8d49394335c33a1ef13bdc604d.js": "/SCL010-Hackathon-Sodimac/precache-manifest.c7131a8d49394335c33a1ef13bdc604d.js",
+    "service-worker.js": "/SCL010-Hackathon-Sodimac/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/SCL010-Hackathon-Sodimac/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.d58cc671.chunk.css.map": "/SCL010-Hackathon-Sodimac/static/css/main.d58cc671.chunk.css.map",
+    "static/js/2.7be39d6d.chunk.js.LICENSE": "/SCL010-Hackathon-Sodimac/static/js/2.7be39d6d.chunk.js.LICENSE",
+    "static/media/logo.png": "/SCL010-Hackathon-Sodimac/static/media/logo.7413a6b1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0aea08b6.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.7be39d6d.chunk.js",
+    "static/css/main.d58cc671.chunk.css",
+    "static/js/main.313a900f.chunk.js"
+  ]
+}
