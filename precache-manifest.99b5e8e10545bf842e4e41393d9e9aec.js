@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "715323f9dba304c5838b53cc54279f9d",
+    "revision": "f93901c3eb34a5147eee050473a39a7a",
     "url": "/SCL010-Hackathon-Sodimac/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SCL010-Hackathon-Sodimac/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "0b59364be20d82189820",
+    "revision": "16142cef9696c96832f9",
     "url": "/SCL010-Hackathon-Sodimac/static/css/main.ed651e3f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SCL010-Hackathon-Sodimac/static/js/2.3781a99f.chunk.js.LICENSE"
   },
   {
-    "revision": "0b59364be20d82189820",
-    "url": "/SCL010-Hackathon-Sodimac/static/js/main.bd40a32a.chunk.js"
+    "revision": "16142cef9696c96832f9",
+    "url": "/SCL010-Hackathon-Sodimac/static/js/main.85d3c022.chunk.js"
   },
   {
     "revision": "8b6e36972f6455e50e03",
