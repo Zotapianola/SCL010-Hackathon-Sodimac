@@ -1,28 +1,35 @@
 import React, { useState } from 'react';
 import HomeOver from '../components/HomeOver';
-import { Container} from 'reactstrap';
+import { Container, Fade, Button } from 'reactstrap';
 import './Home.css';
 import Login from '../views/Login';
 
 const Home = () => {
-
+    const [fadeIn, setFadeIn] = useState(true);
     const [loading, setLoading] = useState(true);
 
-    setTimeout( () => {
-        setLoading(false);
-    },1200);
-
+    if (loading,fadeIn) { 
+        setTimeout( () => {
+            setFadeIn(false);
+        },2000); 
+    } 
+    else {
+        setTimeout( () => {
+            setLoading(false);
+        },500); 
+    };
+    
     return (
-        <div className="home col-md-12">
+        <div className="home">
             { loading
                 ?
                     <Container>
+                <Fade in={fadeIn} tag="h5" className="mt-3">
                         <HomeOver />
+                </Fade>
                     </Container>
                 :
-                    <div className="options">
-                        <Login/>
-                    </div>
+                    <Login/>
             }
         </div>
     );

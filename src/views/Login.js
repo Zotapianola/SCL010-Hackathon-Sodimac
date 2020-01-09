@@ -1,33 +1,35 @@
 import React from 'react';
-import {Link} from "react-router-dom";
-//import { Button } from 'reactstrap';
+import { Link } from "react-router-dom";
 import './Login.css'
-
-//import SignIn from './views/SignIn';
-//import PrincipalPage from './views/PrincipalPage';
+import Isotipo from '../img/isotiposodimac.png'
 
 const Login = () => {
+    
     return (
         <div className="Login">
             <div className="titleLogin">
-                <h1>¡Bienvenido a Sodimac!</h1>
+            <img src= { Isotipo } alt="isotipoSodimac" className="isotipoSodimac"></img>
+                <h1>Bienvenido a Sodimac</h1>
             </div>
-            <form>
-            <input placeholder="correo electronico"></input>
-            <input placeholder="contraseña"></input>
-            </form>
-            <div>
-            <Link to="/PrincipalPage">
-                <button className="btnLogin"> Iniciar sesión</button>
-            </Link>
-            <Link to="/SignIn">
-            <button className="btnSignIn" >Crear cuenta</button>
-            </Link>
-            <Link to="/PrincipalPage">
-            <button className="btnSignIn" >Omitir</button>
-            </Link>
-            <p>¿Olvidaste tu contraseña?</p>
-            </div>
+                <form>
+                    <input placeholder="correo electronico"></input>
+                    <input placeholder="contraseña"></input>
+                </form>
+                <Link to="/PrincipalPage">
+                    <button className="btnLogin"> Iniciar sesión</button>
+                </Link>
+
+                <Link to="/SignIn">
+                    <button className="btnSignIn" >Crear cuenta</button>
+                </Link>
+
+                <Link to="/PasswordLost">
+                    <p className="passwordLink">¿Olvidaste tu contraseña?</p>
+                </Link>
+
+                <Link to="/PrincipalPage">
+                    <p className="omitirLink">Omitir</p>
+                </Link>
         </div>
     );
 };
