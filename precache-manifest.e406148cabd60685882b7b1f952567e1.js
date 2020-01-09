@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7510ee2cc9f1c2942add8b5e189c7902",
+    "revision": "8ff9bd895e4f97b991a8c1d9a7bbf08d",
     "url": "/SCL010-Hackathon-Sodimac/index.html"
   },
   {
