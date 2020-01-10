@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SCL010-Hackathon-Sodimac/precache-manifest.e406148cabd60685882b7b1f952567e1.js"
+  "/SCL010-Hackathon-Sodimac/precache-manifest.62f486e01806f6583df710162ff5a3a0.js"
 );
 
 self.addEventListener('message', (event) => {
